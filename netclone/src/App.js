@@ -1,13 +1,11 @@
 
 import './App.css';
-import Row from "./components/Row"
+import Title from "./components/Title.jsx"
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola LEZKOU</h1>
-      <Row title="Netflix Originals"/>
-      <Row title="Trending Now"/>
+      <Title />      
     </div>
   );
 }
