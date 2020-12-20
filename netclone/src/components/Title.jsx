@@ -2,12 +2,12 @@ import React from 'react'
 import Row from "../containers/Row.jsx"
 import requests from "../requests.js"
 import "./Title.css"
-import Navbar from "./Banner.jsx"
-import Banner from "./Navbar.jsx"
+import Navbar from "../containers/Navbar.jsx"
+import Banner from "../containers/Banner.jsx"
 
 export default function Title() {
     return (
-        <div >
+        <div className="title" >
             <Navbar />
             <Banner />
             <Row 

@@ -1,4 +1,3 @@
-import Axios from 'axios'
 import React, { useState, useEffect } from 'react'
 import axios from "../axios.js"
 import requests from "../requests.js"
@@ -47,7 +46,8 @@ const Banner = () => {
                     {truncate(movie?.overview, 150)}
                 </h1>
             </div>
-            
+
+          <div className = "banner__fadebottom" />         
         </header>
     )
 }
